@@ -51,7 +51,7 @@ public class AddToChartTest {
                     driver.findElement(By.cssSelector("#product-1491 > div.single-product-content > div.summary.entry-summary > form > div > div.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled > button")).click();
                     String txtTheChart = driver.findElement(By.cssSelector("#nav-menu-item-cart > a > span > span.cart-name-and-total")).getText();
                     if (txtTheChart.contains("Cart(1)")){
-                        System.out.println("BERHASIL CART +1");
+                        System.out.println("=BERHASIL CART +1");
                     }else{
                         System.out.println("GAGAL");
                     }
