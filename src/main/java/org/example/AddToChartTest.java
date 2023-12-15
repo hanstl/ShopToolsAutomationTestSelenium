@@ -19,6 +19,7 @@ public class AddToChartTest {
         Actions action = new Actions(driver);
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
+
         driver.get("https://shop.demoqa.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
